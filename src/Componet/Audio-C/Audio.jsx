@@ -9,6 +9,8 @@ import { LuBookHeart } from "react-icons/lu";
 import { TbAddressBook } from "react-icons/tb";
 import { PiBookBookmark } from "react-icons/pi";
 import { RiBookReadLine } from "react-icons/ri";
+import { FaRegArrowAltCircleRight } from "react-icons/fa";
+
 
 
 
@@ -19,19 +21,33 @@ const Audio = () => {
                 <div className='h-[400px] flex'>             
                    <div className=' w-[800px]'>
                     <h1 className='text-[#181818] font-bold text-3xl underline decoration-[#303030] underline-offset-22 decoration-2 pt-10 pl-15'>Audio  <span className='text-[#FF5C5C] font-bold'>Books</span></h1>
-                          <div className='flex gap-7 pt-10 pl-25'>
+                          <div className='flex gap-15 pt-10 pl-25'>
                                  <div className=''>
                                     <img className='w-[100px] h-[120px]' src={Audio1Png} alt="" />
-                                           
-                                 </div>
-                                 <div className=''>
-                                    <img className='w-[100px] h-[120px]' src={Audio2Png} alt="" />
+                                          <h1 className='text-center text-[#F54927] font-bold text-xl pt-2'>The Hunger Games</h1>
+                                          <h1 className='font-bold text-[#777575]'>$5% OFF</h1> 
+                                          <h1 className='font-bold text-2xl text-[#424242]'>$50</h1> 
+                                          <div className='pt-2'>
+                                             <button className="btn btn-dash btn-info">Buy Now</button>
+                                         </div>  
                                  </div>
                                  <div>
                                    <img className='w-[102px] h-[120px] ' src={Audio3Png} alt="" />
+                                          <h1 className='text-center text-[#F54927] font-bold text-xl pt-2'>The Hunger Games</h1>
+                                          <h1 className='font-bold text-[#777575]'>$5% OFF</h1> 
+                                          <h1 className='font-bold text-2xl text-[#424242]'>$50</h1> 
+                                          <div className='pt-2'>
+                                            <button className="btn btn-dash btn-info">Buy Now</button>
+                                         </div> 
                                  </div>
                                  <div>
                                     <img className='w-[100px] h-[120px]' src={Audio4Png} alt="" />
+                                          <h1 className='text-center text-[#F54927] font-bold pt-2 text-xl'>The Hunger Games</h1>
+                                          <h1 className='font-bold text-[#777575]'>$5% OFF</h1> 
+                                          <h1 className='font-bold text-2xl text-[#424242]'>$50</h1> 
+                                         <div className='pt-2'>
+                                            <button className="btn btn-dash btn-info">Buy Now</button>
+                                         </div> 
                                  </div>
                           </div>
                     </div>
