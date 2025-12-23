@@ -6,6 +6,8 @@ import Footer from "../Componet/Footer/Footer";
 import Banner from "../Componet/Banner/Banner";
 import Card from "../Componet/Card/Card";
 import Brend from "../Componet/brend/Brend";
+import Categories from "../Componet/Categories/Categories";
+import Audio from "../Componet/Audio-C/Audio";
 
 
 export const router = createBrowserRouter([
@@ -36,6 +38,14 @@ export const router = createBrowserRouter([
         {
           path: "Brend",
           Component: Brend,
+        },
+        {
+          path: "Categories",
+          Component: Categories,
+        },
+        {
+          path: "Audio",
+          Component: Audio,
         }
        
    
