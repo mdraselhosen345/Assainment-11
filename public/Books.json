@@ -1,0 +1,92 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "badge": "Most Popular",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "price": "$29",
+      "rating": 4.8,
+      "category": "Self Improvement",
+      "buttonText": "Buy Now",
+      "image": "images/books/atomic-habits.jpg"
+    },
+    {
+      "id": 2,
+      "badge": "Premium",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "price": "$25",
+      "rating": 4.7,
+      "category": "Finance",
+      "buttonText": "Buy Now",
+      "image": "images/books/rich-dad.jpg"
+    },
+    {
+      "id": 3,
+      "badge": "Most Popular",
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "price": "$22",
+      "rating": 4.6,
+      "category": "Motivation",
+      "buttonText": "Buy Now",
+      "image": "images/books/think-grow-rich.jpg"
+    },
+    {
+      "id": 4,
+      "badge": "Premium",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": "$18",
+      "rating": 4.9,
+      "category": "Fiction",
+      "buttonText": "Buy Now",
+      "image": "images/books/alchemist.jpg"
+    },
+    {
+      "id": 5,
+      "badge": "Most Popular",
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "price": "$27",
+      "rating": 4.5,
+      "category": "Productivity",
+      "buttonText": "Buy Now",
+      "image": "images/books/deep-work.jpg"
+    },
+    {
+      "id": 6,
+      "badge": "Premium",
+      "title": "Start With Why",
+      "author": "Simon Sinek",
+      "price": "$24",
+      "rating": 4.6,
+      "category": "Leadership",
+      "buttonText": "Buy Now",
+      "image": "images/books/start-with-why.jpg"
+    },
+    {
+      "id": 7,
+      "badge": "Most Popular",
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "price": "$26",
+      "rating": 4.8,
+      "category": "Money",
+      "buttonText": "Buy Now",
+      "image": "images/books/psychology-money.jpg"
+    },
+    {
+      "id": 8,
+      "badge": "Premium",
+      "title": "Ikigai",
+      "author": "Héctor García",
+      "price": "$21",
+      "rating": 4.7,
+      "category": "Lifestyle",
+      "buttonText": "Buy Now",
+      "image": "images/books/ikigai.jpg"
+    }
+  ]
+}

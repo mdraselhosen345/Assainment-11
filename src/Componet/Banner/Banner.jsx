@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router';
 import BannerPng from '../../assets/banner.jpg'
 import Books from '../../assets/books.png'
+
 
 const Banner = () => {
     return (
@@ -12,7 +14,7 @@ const Banner = () => {
                                <h1 className='text-[#F5B027] text-6xl font-bold'>The Bast Books <br /> Of 2025</h1>
                                <p className='text-[#F54927] pt-5 pb-5'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta fugit, aut unde pariatur beatae iusto qui repudiandae exercitationem ea dolorum.</p>                              
                                  <div>
-                                     <button className="btn btn-outline btn-secondary">Login Now</button>
+                                      <Link to='/Login' className="btn btn-outline btn-secondary">Login Now</Link> 
                                  </div>
                          </div>
 

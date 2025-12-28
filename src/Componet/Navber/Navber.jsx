@@ -1,8 +1,9 @@
 import React from 'react';
+import { NavLink,} from 'react-router';
 import Logopng from '../../assets/Logo PNG.png'
 const Navber = () => {
     return (
-     <div className="navbar bg-[#125c12] shadow-sm">
+     <div className="navbar bg-[#ffcbd3] shadow-sm">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -18,12 +19,12 @@ const Navber = () => {
     </a>
   </div>
   <div className="navbar-center hidden lg:flex mr-20">
-    <ul className="menu menu-horizontal px-1 gap-2">
-      <li><a>Home</a></li>
-      <li><a>Item 2</a></li>
-      <li><a>Card</a></li>
-      <li><a>Item 4</a></li> 
-      <li><a>Profile</a></li> 
+    <ul className="menu menu-horizontal px-1 gap-2 text-black">
+      <li><NavLink to="/">Home</NavLink></li>
+      <li><NavLink to='/Categories'>Categories</NavLink></li>
+      <li><NavLink to='/Audio'>Top-Book</NavLink></li>
+      <li><NavLink to='/Card'>Card</NavLink></li>   
+      <li><NavLink to='/Profile'>Profile</NavLink></li> 
     </ul>
   </div>
 
@@ -33,7 +34,8 @@ const Navber = () => {
            <input type="search" placeholder="Search" className='w-[200px]' />
       </label>
    </div>
-   <button className="btn btn-outline btn-secondary">Login</button>
+   {/* <li><NavLink to="/Login" className="btn btn-outline btn-secondary">Login</NavLink></li> */}
+   <li><NavLink to='/Login'className="btn btn-outline btn-secondary">Login</NavLink></li>
   </div>
 </div>
     );
