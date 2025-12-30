@@ -10,6 +10,7 @@ import Audio from "../Componet/Audio-C/Audio";
 import Profile from "../Componet/Profile/Profile";
 import Card from "../Componet/Card/Card"
 import Login from "../Componet/Login/Login";
+import Register from "../Componet/Register/Register";
 
 
 export const router = createBrowserRouter([
@@ -56,6 +57,10 @@ export const router = createBrowserRouter([
         {
           path: "Login",
           Component: Login,
+        },
+        {
+          path: "Register",
+          Component: Register,
         }
        
    

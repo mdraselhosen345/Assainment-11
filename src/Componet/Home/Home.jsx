@@ -6,6 +6,7 @@ import Audio from '../Audio-C/Audio';
 import Profile from '../Profile/Profile';
 import Card from '../Card/Card';
 import Login from '../Login/Login';
+import Register from '../Register/Register';
 const Home = () => {
     return (
         <div className='max-w-7xl justify-center'>
@@ -16,6 +17,7 @@ const Home = () => {
             <Card></Card>
             <Profile></Profile>
             {/* <Login></Login> */}
+            {/* <Register></Register> */}
         </div>
     );
 };

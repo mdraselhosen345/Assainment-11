@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { auth } from '../../Firebase/Firebase.init';
 import { signInWithEmailAndPassword, sendPasswordResetEmail, confirmPasswordReset } from 'firebase/auth';
+import { Link } from 'react-router';
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -199,6 +200,11 @@ const Login = () => {
                   >
                     {loading ? "Loading..." : "Login"}
                   </button>
+
+                  <div className='flex justify-center'>
+                     {/* <a className='text-blue-700'>Register Now</a> */}
+                     <Link to='/Register' className='text-blue-700'>Register Now</Link>
+                  </div>
                 </fieldset>
               </form>
             </div>
